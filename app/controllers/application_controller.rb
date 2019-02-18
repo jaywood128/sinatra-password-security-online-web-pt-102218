@@ -32,7 +32,7 @@ end
 		erb :login
 	end
 
-	post "/login"
+	post "/login" do
 		 user = User.find_by(:username => params[:username])
 	end
 
