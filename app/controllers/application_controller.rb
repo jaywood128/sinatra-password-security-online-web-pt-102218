@@ -30,6 +30,7 @@ end
 	get "/login" do
 		erb :login
 	end
+	
 	post "/login" do
 		binding.pry
   user = User.find_by(:username => params[:username])
