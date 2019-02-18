@@ -26,13 +26,6 @@ class ApplicationController < Sinatra::Base
   end
 end
 
-  if user.save
-    redirect "/login"
-  else
-    redirect "/failure"
-  end
-end
-
 	get "/login" do
 		erb :login
 	end
