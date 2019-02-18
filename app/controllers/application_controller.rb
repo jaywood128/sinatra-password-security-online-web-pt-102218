@@ -34,7 +34,6 @@ end
 
 	post "/login"
 		 user = User.find_by(:username => params[:username])
-
 	end
 
 	get "/success" do
