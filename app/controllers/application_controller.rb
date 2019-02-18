@@ -43,7 +43,6 @@ end
 			redirect "/login"
 		end
 	end
-end
 	get "/failure" do
 		erb :failure
 	end
